@@ -94,4 +94,4 @@ void fp_img_free(struct fp_img *img);
 
 """)
 
-C = ffi.dlopen('fprint')
+C = ffi.dlopen('/usr/lib/libfprint.so')
